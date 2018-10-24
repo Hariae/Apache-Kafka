@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://localhost:27017/HomeAway');
 
-var Userdetails = mongoose.model('Userdetails', {
+var Userdetails = mongoose.model('Userdetails',{
 
     'Username' : {
         type: String
